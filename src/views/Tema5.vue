@@ -74,14 +74,16 @@
                 td Rayado de consenso al tipo de archivo.
               tr
                 td Nombres de los individuos u organizaciones que intervienen en el comercio.
-                td Vencimiento.
+                td Vencimiento. #[br] Diligenciamiento.
               tr
                 td Cantidades escritas en números y letras.
-                td Diligenciamiento.
+                td
               tr
                 td Concepto de la transacción con todos sus detalles.
+                td
               tr
                 td Firmas de los individuos autorizados.
+                td
 
     separador
     #t_5_2.titulo-segundo(data-aos="flip-up")
@@ -252,7 +254,7 @@ export default {
       {
         titulo: 'Letra de cambio',
         texto:
-          'Este título valor es una seguidor de pago que da una persona llamada girador a otra llamada girado para que pague a la orden o al portador, cierta suma de dinero en una fecha estipulada.',
+          'Este título valor es un seguidor de pago que da una persona llamada girador a otra llamada girado para que pague a la orden o al portador, cierta suma de dinero en una fecha estipulada.',
         imagen: require('@/assets/curso/tema_5/img_10.png'),
         //leyendaImagen: 'Leyenda de la imagen',
       },

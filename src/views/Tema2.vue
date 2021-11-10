@@ -46,17 +46,17 @@
       .col-lg-10.mb-4.mb-lg-0
         img(src='@/assets/curso/tema_2/img_6.png', alt='Texto que describa la imagen')
 
-    p.mb-5(data-aos="flip-up") Hay un conjunto de variables que se deben tener en cuenta siempre que se inicie un proceso de negociación, y que no se deben perder de vista a lo largo del mismo, pues garantizan un entorno de confianza en el que el proceso de desarrolle con éxito.
+    p.mb-5(data-aos="flip-up") Hay un conjunto de variables que se deben tener en cuenta siempre que se inicie un proceso de negociación, y que no se deben perder de vista a lo largo del mismo, pues garantizan un entorno de confianza en el que el proceso se desarrolle con éxito.
 
     .row.mb-5
       .col-lg-4.mb-4.mb-lg-0(data-aos="flip-up")
         img.mb-3(src='@/assets/curso/tema_2/img_7.png', alt='Texto que describa la imagen')
         h4 Precio
-        p Concentrarse en una sola variable limita el margen de negociación
+        p Concentrarse en una sola variable limita el margen de negociación.
       .col-lg-4.mb-4.mb-lg-0(data-aos="flip-down")
         img.mb-3(src='@/assets/curso/tema_2/img_8.png', alt='Texto que describa la imagen')
         h4 Plazo volumen de garantías
-        p Conviene considerar más variables
+        p Conviene considerar más variables.
       .col-lg-4.mb-4.mb-lg-0(data-aos="flip-up")
         img.mb-3(src='@/assets/curso/tema_2/img_9.png', alt='Texto que describa la imagen')
         h4 Volumen de compra
@@ -83,7 +83,7 @@
           .col-lg-8
             h5 Política
             p Se entiende como negociación política a la manera de comunicación entre los múltiples negociadores interesados en consensuar la toma de decisiones, aun cuando tengan criterios diferentes referentes a su doctrina o forma de política.
-      .tarjeta.color-acento-botones.p-4(titulo="Política")
+      .tarjeta.color-acento-botones.p-4(titulo="Tipos")
         .row.justify-content-center
           .col-lg-3
             img(src='@/assets/curso/tema_2/img_12.png', alt='Texto que describa la imagen')
@@ -143,7 +143,7 @@
 
     figure
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/aT1ux5A-s3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 

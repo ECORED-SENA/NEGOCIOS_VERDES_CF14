@@ -29,7 +29,7 @@
       .col-lg-5.mb-4.mb-lg-0(data-aos="slide-right")
         img.img-a(src='@/assets/curso/tema_1/img_3.png', alt='Texto que describa la imagen')
         .bg01.p-4.bor2
-          p.mb-4 Ordenar la infraestructura para que la compañía logre describir el desempeño del servicio y mostrar sus ventajas.  
+          p.mb-0 Ordenar la infraestructura para que la compañía logre describir el desempeño del servicio y mostrar sus ventajas.  
           
   
 </template>

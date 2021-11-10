@@ -29,11 +29,23 @@
       .col-lg-5.mb-4.mb-lg-0(data-aos="slide-right")
         img.img-a(src='@/assets/curso/tema_3/img_4.svg', alt='Texto que describa la imagen')
 
-    p.mb-5(data-aos="flip-up") El proceso tiene las fases necesarias para convertir las oportunidades en una venta, desde que se genera un lead hasta que se concluye el negocio. Todos los procesos de venta no son iguales ni siguen las mismas etapas, dependen del tipo de negocio; a continuación, se presenta un ejemplo: 
+    p.mb-5(data-aos="flip-up") 
+      strong El proceso tiene las fases necesarias para convertir las oportunidades en una venta, desde que se genera un lead hasta que se concluye el negocio. Todos los procesos de venta no son iguales ni siguen las mismas etapas, dependen del tipo de negocio; a continuación, se presenta un ejemplo: 
 
-    figure(data-aos="flip-up").mb-5
-    .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .tarjeta.color-secundario.px-5.py-3.mb-5
+      .row.justify-content-center.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema_3/img_23.png")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Etapas de una venta
+              p.text-small Clasificación de las etapas de una venta.
+            .col-sm-auto
+              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/EtapasVenta.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
+
 
     separador
     #t_3_1.titulo-segundo(data-aos="flip-up")
@@ -54,13 +66,13 @@
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_3/img_6.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p.tarj_txt Todo artículo que este en precomercialización se puede apartar con $200 mandando un mensaje a nuestra página de Facebook de Flip a Coin.
+              p.tarj_txt Todo artículo que esté en precomercialización se puede apartar con $200 mandando un mensaje a nuestra página de Facebook de Flip a Coin.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema_3/img_7.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5
-              p Si se aparta un producto con avance de $200 como se mencionó en el punto anterior,  no se regresará el adelanto en caso de no liquidar el producto para la fecha límite que se le indico anteriormente por mensaje en la página de Facebook.
+              p Si se aparta un producto con avance de $200 como se mencionó en el punto anterior,  no se regresará el adelanto en caso de no liquidar el producto para la fecha límite que se le indicó anteriormente por mensaje en la página de Facebook.
       .col-sm-6.col-xl-3.mb-4.mb-sm-0.tarj_txt
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
@@ -75,13 +87,13 @@
             .tarjeta-flip__contenido.p-4.p-xl-5
               p Se puede reservar el derecho de cancelar cualquier orden en cualquier instante, si una orden debe ser cancelada se le comunicará  al comprador por correspondencia electrónico y se le regresará el total de su orden.
 
-    p.mb-5 Las tácticas de preventa son las que se utilizan antes de la comercialización para dirigir al consumidor y prepararlo para mercar un producto o servicio. Esta metodología posibilita una gran unión en medio de las ventas y el marketing, y su propósito es dejar al comprador preparado (lead) para la compra. En seguida, se enumeran ciertos componentes fundamentales que se deben realizar en un plan de preventa exitosa.
+    p.mb-5 Las tácticas de preventa son las que se utilizan antes de la comercialización para dirigir al consumidor y prepararlo para mercar un producto o servicio. Esta metodología posibilita una gran unión en medio de las ventas y el #[i marketing], y su propósito es dejar al comprador preparado (lead) para la compra. En seguida, se enumeran ciertos componentes fundamentales que se deben realizar en un plan de preventa exitosa.
 
     TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Prospecto de consumidores")
+      .py-4.py-md-5(titulo="Prospección de consumidores")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
-            h4 Prospecto de consumidores
+            h4 Prospección de consumidores
             p Debe hacerse con gran cuidado y atención para identificar que estará en contacto con los consumidores, además de contar con  tácticas apropiadas y efectivas.
         
           .col-md-6
@@ -96,7 +108,7 @@
           .col-md-6
             figure
               img.img-a(src='@/assets/curso/tema_3/img_11.png', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Buena atención al comprador")
+      .py-4.py-md-5(titulo="Conversión")
         .row.align-items-center
           .col-md-6.mb-4.mb-md-0
             h4 Conversión
@@ -116,7 +128,7 @@
           .col-lg-8
             h5 Objetivo
             p Se refiere a manejar la compostura y la buena relación con los compradores potenciales ofreciendo productos que cubran sus necesidades.
-      .tarjeta.color-acento-botones.p-4(titulo="Objetivo")
+      .tarjeta.color-acento-botones.p-4(titulo="Habilidad")
         .row.justify-content-center.align-items-center
           .col-lg-3
             img(src='@/assets/curso/tema_3/img_14.png', alt='Texto que describa la imagen')
@@ -130,7 +142,14 @@
           .col-lg-8
             h5 Confianza
             p La finalidad es entablar la confianza y la buena interacción con los consumidores potenciales, mostrando que se está cubriendo sus necesidades y requisitos técnicos.
-      .tarjeta.color-acento-botones.p-4(titulo="Objetivo")
+      .tarjeta.color-acento-botones.p-4(titulo="Capacidad")
+        .row.justify-content-center.align-items-center
+          .col-lg-3
+            img(src='@/assets/curso/tema_3/img_22.png', alt='Texto que describa la imagen')
+          .col-lg-8
+            h5 Capacidad
+            p Una sección bastante fundamental de la preventa es la forma de idear la información, debido a que se posee experiencia en el ámbito exclusivo del producto o servicio a dar.
+      .tarjeta.color-acento-botones.p-4(titulo="Datos sobre el producto")
         .row.justify-content-center.align-items-center
           .col-lg-3
             img(src='@/assets/curso/tema_3/img_16.png', alt='Texto que describa la imagen')
@@ -142,7 +161,7 @@
     #t_3_2.titulo-segundo(data-aos="flip-up")
       .h2 3.2 Estrategias de ventas
 
-    p.mb-5(data-aos="flip-up") Tener un plan de ventas no significa optar por un exclusivo modo de vender los productos. Entonces, #[strong ¿a qué se refiere exactamente una vez que se habla de un plan de ventas?] Existen dos tipos principales de estrategias de ventas: inbound y outbound. A continuación, se muestran cada una de ellas:
+    p.mb-5(data-aos="flip-up") Tener un plan de ventas no significa optar por un exclusivo modo de vender los productos. Entonces, #[strong ¿a qué se refiere exactamente una vez que se habla de un plan de ventas?] Existen dos tipos principales de estrategias de ventas: #[i inbound] y #[i outbound]. A continuación, se muestran cada una de ellas:
 
     .tarjeta--container.text-white.row.mb-5
       .col-md.tarjeta.color-primario.p-5
@@ -232,7 +251,7 @@
 
     figure
     .video
-      iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/uBtd3thr7BY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     
