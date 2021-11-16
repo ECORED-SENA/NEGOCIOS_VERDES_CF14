@@ -32,19 +32,9 @@
     p.mb-5(data-aos="flip-up") 
       strong El proceso tiene las fases necesarias para convertir las oportunidades en una venta, desde que se genera un lead hasta que se concluye el negocio. Todos los procesos de venta no son iguales ni siguen las mismas etapas, dependen del tipo de negocio; a continuación, se presenta un ejemplo: 
 
-    .tarjeta.color-secundario.px-5.py-3.mb-5
-      .row.justify-content-center.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema_3/img_23.png")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Etapas de una venta
-              p.text-small Clasificación de las etapas de una venta.
-            .col-sm-auto
-              a.boton.color-acento-contenido.texto-blanco(:href="obtenerLink('/downloads/EtapasVenta.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
+    figure
+    .video
+      iframe(width="560" height="315" src="https://www.youtube.com/embed/wdFK6E_D2Ro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
     separador
